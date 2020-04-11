@@ -1,3 +1,8 @@
+/*******************************************************/
+/* UVa 11934 Magic Formula                             */
+/* Author: Maplewing [at] knightzone.studio            */
+/* Version: 2020/04/11                                 */
+/*******************************************************/
 #include <iostream>
 #include <cstdio>
 using namespace std;
