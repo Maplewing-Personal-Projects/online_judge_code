@@ -15,9 +15,7 @@ bool isVowel(char c){
 
 int main(){
   int n;
-  while(scanf("%d", &n) != EOF){
-    getchar(); // for '\n'
-
+  while(scanf("%d ", &n) != EOF){
     for(int caseNumber = 1 ; caseNumber <= n ; ++caseNumber){
       string a, b;
       getline(cin, a);
