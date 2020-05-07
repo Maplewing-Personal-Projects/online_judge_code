@@ -1,10 +1,15 @@
+/*******************************************************/
+/* UVa 11900 Boiled Eggs                               */
+/* Author: Maplewing [at] knightzone.studio            */
+/* Version: 2020/05/06                                 */
+/*******************************************************/
 #include <iostream>
 #include <cstdio>
 #include <cstdlib>
 #include <vector>
 using namespace std;
 
-int main () {
+int main() {
   int T;
   while (scanf("%d", &T) != EOF) {
     for (int caseNumber = 1 ; caseNumber <= T ; ++caseNumber) {
