@@ -1,3 +1,8 @@
+/*******************************************************/
+/* UVa 10074 Take the Land                             */
+/* Author: Maplewing [at] knightzone.studio            */
+/* Version: 2020/05/09                                 */
+/*******************************************************/
 #include <iostream>
 #include <cstdio>
 #include <vector>
@@ -45,7 +50,7 @@ int main() {
           };
         }
 
-        /* Enlarge columns */
+        /* Enlarge the range of columns */
         Rectangle resultRectangle = sameColumnRectangleDP[0];
         if (resultRectangle.isAllZero) {
           maxAllZeroArea = max(maxAllZeroArea, resultRectangle.getArea());
